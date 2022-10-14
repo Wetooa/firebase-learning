@@ -26,7 +26,10 @@ function App() {
 
   return (
     <div className="App">
-      <header>THIS IS A STUPID MESSENGER CLONE</header>
+      <header>
+        THIS IS A STUPID MESSENGER CLONE
+        <SignOut />
+      </header>
       <section>{user ? <ChatRoom /> : <SignIn />}</section>
     </div>
   );
